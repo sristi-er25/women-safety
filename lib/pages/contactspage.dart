@@ -10,6 +10,8 @@ class Contact {
 }
 
 class ContactsPage extends StatefulWidget {
+  const ContactsPage({super.key});
+
   @override
   _ContactsPageState createState() => _ContactsPageState();
 }
