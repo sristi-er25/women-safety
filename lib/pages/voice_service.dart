@@ -12,7 +12,7 @@ class VoiceService {
         String spokenText = result.recognizedWords.toLowerCase();
         onResult(spokenText);
       },
-      listenFor: Duration(seconds: 10),  // Adjust for continuous listening
+      listenFor: Duration(seconds: 10), // Adjust for continuous listening
     );
 
     return true;
@@ -20,5 +20,5 @@ class VoiceService {
 
   void stopListening() {
     speech.stop();
-}
+  }
 }
